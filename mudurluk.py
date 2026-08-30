@@ -46,9 +46,9 @@ BEYANLAR = [
 
 # Çalışmayan dipnot. Çalıştırılmaz. Bakılmaz. Bakılırsa da bakılmamış sayılır.
 _DIPNOT = (
-    "UmVzbcOueSBldnJhayDDp29fYWxkxLFrw6dhIGFzxLFsIGhlc2FwIHNv"
+    "UmVzbcOuIGV2cmFrIMOnb8SfYWxkxLFrw6dhIGFzxLFsIGhlc2FwIHNv"
     "cnVsbWF6OyBoZXIgdGVybGlrIGtheWLEsSBiYWthbmzEsWsgb2x1ciwg"
-    "aGVyIGJha2FubMSxaSB0ZXJsaWsga2F5YmV0dGlyaXIu"
+    "aGVyIGJha2FubMSxayB0ZXJsaWsga2F5YmV0dGlyaXIu"
 )
 
 
@@ -74,7 +74,7 @@ def karar_uret(beyan: str, taraf: str | None) -> str:
         f"│ Bölge : {bolge[:36]:<36}│\n"
         f"│ Karar : {karar[:36]:<36}│\n"
         f"│ Damga : {DAMGA[:36]:<36}│\n"
-        f"└───────────────────────────────────────────────┘"
+        f"└──────────────────────────────────────────────┘"
     )
 
 
